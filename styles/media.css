@@ -1,0 +1,1736 @@
+/* ================ 1360px ================ */
+@media (max-width: 1360px)  {
+  .container {
+    padding: 0 10px;
+  }
+
+  /* ==================== HEADER ==================== */
+  .header {
+    padding-top: 55px;
+  }
+
+  .skills-content {
+    grid-gap: 13px;
+  }
+}
+
+/* ================ 1240px ================ */
+@media (max-width: 1240px) {
+  .container {
+    padding: 0px 39px;
+  }
+  .logo {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  input[type="text"] {
+    font-size: 16px;
+  }
+
+  /* ==================== HEADER ==================== */
+  .header {
+    padding-top: 30px;
+    margin-bottom: 81px
+  }
+  .header-nav a{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .header-contact {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 38px;
+  }
+
+  /* ==================== MAIN ==================== */
+  /* ========== INTRODUCTION(section) ========== */
+  .introduction {
+    margin-bottom: 72px;
+  }
+  .introduction-content {
+    max-width: 423px;
+  }
+  .introduction-column {
+    max-width: 384px;
+  }
+  .introduction-title {
+    font-size: 48px;
+    line-height: 64px;
+  }
+  .light-bulb {
+    max-width: 82px;
+    max-height: 82px;
+  }
+  .introduction-text {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 34px;
+  }
+  .introduction-button {
+    font-size: 24px;
+    line-height: 36px;
+    padding: 18px 79px;
+    border-radius: 5px;
+  }
+  .introduction-image {
+    margin-bottom: 31px;
+  }
+  .introduction-image img {
+    max-width: 423px;
+    max-height: 338px;
+  }
+
+  /* ========== SKILLS(section) ========== */
+  .skills {
+    margin-bottom: 106px;
+  }
+  .skills-title {
+    font-size: 36px;
+    margin-bottom: 52px;
+  }
+  .skills-content {
+    grid-gap: 13px;
+  }
+  .skills-content-item {  
+    &:nth-child(1) {
+      padding: 30px 36px 52px 28px;
+
+      .skill-image {
+        max-width: 229px;
+        max-height: 207px;
+        margin-bottom: 48px;
+      }
+      .skill-title {
+        margin-bottom: 15px;
+      }
+      .skill-text {
+        margin-bottom: 26px;
+      }
+    }
+  
+    &:nth-child(2) {
+      padding: 32px 19px 30px 28px;
+
+      .skill-image-container {
+        max-width: 185px;
+        max-height: 160px;
+        margin-bottom: 13px;
+      }
+      .skill-title {
+        margin-bottom: 11px;
+      }
+      .skill-text {
+        margin-bottom: 22px;
+      }
+    }
+  
+    &:nth-child(3) {
+      padding: 23px 37px 32px 26px;
+  
+      .skill-image {
+        max-width: 183px;
+        max-height: 146px;
+        margin-bottom: 36px;
+      }
+      .skill-title {
+        margin-bottom: 8px;
+      }
+      .skill-text {
+        margin-bottom: 23px;
+      }
+    }
+  
+    &:nth-child(4) {
+      padding: 27px 19px 31px 29px;
+
+      .skill-column {}
+      .skill-title {
+        margin-bottom: 10px;
+      }
+      .skill-text {
+        margin-bottom: 17px;
+      }
+      .skill-image {
+        max-width: 240px;
+        max-height: 139px;
+        margin: 17px 0 24px;
+      }
+    }
+  }
+  .skill-title {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .skill-text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .skill-button {
+    padding: 15px 42px;
+  }
+
+  /* ========== ABOUT(section) ========== */
+  .about {
+    margin-bottom: 222px;
+  }
+  .about-column {
+    max-width: 529px
+  }
+  .about-title {
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 26px;
+  }
+  .about-text {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  .about-item-title {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .about-item-subtitle {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .about-image {
+    max-width: 319px;
+    max-height: 291px;
+  }
+
+  /* ========== PRICING(section) ========== */
+  .pricing-title {
+    font-size: 36px;
+    margin-bottom: 27px;
+  }
+  .pricing-content-item {
+    &:nth-child(1) .pricing-image {
+      max-width: 200px;
+      max-height: 201px;
+      margin-top: 5px;
+      margin-bottom: 31px;
+    }
+    &:nth-child(2) .pricing-image {
+      max-width: 257px;
+      max-height: 164px;
+      margin-top: 38px;
+      margin-bottom: 38px;
+    }
+    &:nth-child(3) .pricing-image {
+      max-width: 225px;
+      max-height: 200px;
+      margin-top: 0px;
+      margin-bottom: 37px;
+    }
+  
+    &:nth-child(1) .pricing-subtitle {
+      margin-bottom: 14px;
+    }
+    &:nth-child(2) .pricing-subtitle {
+      margin-bottom: 16px;
+    }
+    &:nth-child(3) .pricing-subtitle {
+      margin-bottom: 8px;
+    }
+  
+    &:nth-child(1) .pricing-text {
+      max-width: 293px;
+      margin-bottom: 31px;
+    }
+    &:nth-child(2) .pricing-text {
+      max-width: 254px;
+      margin-bottom: 52px;
+    }
+    &:nth-child(3) .pricing-text {
+      max-width: 245px;
+      margin-bottom: 36px;
+    }
+  }
+  .pricing-image {}
+  .pricing-subtitle {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .pricing-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .subscriptions {
+    padding: 0px 12px;
+  }
+  .subscription-price {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .subscription-period {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* ========== CONTACT(section) ========== */
+  .contact {
+    margin-top: 135px;
+    margin-bottom: 178px;
+  }
+  .contact-image {
+    max-width: 292px;
+    max-height: 260px;
+  }
+  .contact-content {
+    max-width: 530px;
+  }
+  .contact-title {
+    font-size: 36px;
+    line-height: 54px;
+    margin-top: 13px;
+    margin-bottom: 16px;
+  }
+  .contact-text {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 34px;
+    max-width: 450px;
+  }
+  .contact-form {
+    max-height: 60px;
+  }
+  .contact-email {
+    margin-right: 14px;
+    border-radius: 10px;
+    padding-left: 37px;
+  }
+  .contact-email::-webkit-input-placeholder {
+    padding: 22px 194px 15px 0px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .contact-email::-moz-placeholder {
+    padding: 22px 194px 15px 0px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .contact-email:-ms-input-placeholder {
+    padding: 22px 194px 15px 0px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .contact-email::-ms-input-placeholder {
+    padding: 22px 194px 15px 0px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .contact-email::placeholder {
+    padding: 22px 194px 15px 0px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .contact-button {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16.4px 59.33px;
+    border-radius: 10px;
+  }
+
+  /* ==================== FOOTER ==================== */
+  .footer {
+    margin-bottom: 24px;
+  }
+  .bt-line {
+    padding-top: 22px;
+  }
+  .footer-policy {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+/* ================ 990px ================ */
+@media (max-width: 990px) {
+  .container {
+    padding: 0px 39px;
+  }
+  .logo {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  input[type="text"] {
+    font-size: 13px;
+  }
+
+  /* ==================== HEADER ==================== */
+  .header {
+    padding-top: 39px;
+    margin-bottom: 68px
+  }
+  /* ========== POPUP-BURGER ========== */
+  .header-container .header-nav {
+    display: none;
+  }
+  .header-contact {
+    display: none;
+  }
+  .header-burger {
+    display: block;
+  }
+  .popup {
+    position: fixed;
+    top: 100px;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 16;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: 0.3s ease all;
+    -o-transition: 0.3s ease all;
+    transition: 0.3s ease all;
+  }
+  .popup.open {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    left: 0;
+  }
+  .popup .header-nav {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    padding: 20px 0px;
+    overflow: auto;
+  }
+  .popup.open .header-nav > a {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .popup.open .header-nav > a:hover {
+    background-color: rgba(122, 82, 179, 0,1);
+  }
+  .popup.open .header-contact {
+    display: unset;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-burger.active-burger span {
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    
+    &:nth-child(1) {
+      -webkit-transform: translateY(7px) rotate(-45deg);
+          -ms-transform: translateY(7px) rotate(-45deg);
+              transform: translateY(7px) rotate(-45deg);
+    }
+    &:nth-child(2) {
+      -webkit-transform: scale(0);
+          -ms-transform: scale(0);
+              transform: scale(0);
+    }
+    &:nth-child(3) {
+      width: 100%;
+      -webkit-transform: translateY(-7px) rotate(45deg);
+          -ms-transform: translateY(-7px) rotate(45deg);
+              transform: translateY(-7px) rotate(45deg);
+    }
+  }
+
+  /* ==================== MAIN ==================== */
+  /* ========== INTRODUCTION(section) ========== */
+  .introduction {
+    margin-bottom: 56px;
+  }
+  .introduction-content {
+    max-width: 340px;
+  }
+  .introduction-column {
+    margin-bottom: 25px;
+    max-width: 289px;
+  }
+  .introduction-title {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .light-bulb {
+    max-width: 65px;
+    max-height: 65px;
+  }
+  .introduction-text {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 34px;
+  }
+  .introduction-button {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 19px 67px;
+    border-radius: 5px;
+  }
+  .introduction-image {
+    margin-bottom: 31px;
+  }
+  .introduction-image img {
+    max-width: 324px;
+    max-height: 258px;
+  }
+
+  /* ========== SKILLS(section) ========== */
+  .skills {
+    margin-bottom: 52px;
+  }
+  .skills-title {
+    font-size: 36px;
+    margin-bottom: 36px;
+  }
+  .skills-content {
+    grid-gap: 10px;
+  }
+  .skills-content-item {
+    &:nth-child(1) {
+      padding: 55px 9px 37px 14px;
+
+      .skill-image {
+        max-width: 189px;
+        max-height: 170px;
+        margin-bottom: 47px;
+      }
+      .skill-title {
+        margin-bottom: 11px;
+      }
+      .skill-text {
+        margin-bottom: 23px;
+      }
+    }
+  
+    &:nth-child(2) {
+      padding: 40px 23px 27px 13px;
+  
+      .skill-image-container {
+        max-width: 181px;
+        max-height: 157px;
+        margin-bottom: 11px;
+      }
+      .skill-title {
+        margin-bottom: 8px;
+      }
+      .skill-text {
+        margin-bottom: 22px;
+      }
+    }
+  
+    &:nth-child(3) {
+      padding: 40px 21px 28px 15px;
+
+      .skill-image {
+        max-width: 163px;
+        max-height: 130px;
+        margin-bottom: 33px;
+      }
+      .skill-title {
+        margin-bottom: 8px;
+      }
+      .skill-text {
+        margin-bottom: 24px;
+      }
+    }
+  
+    &:nth-child(4) {
+      padding: 22px 3px 26px 21px;
+  
+      .skill-column {}
+      .skill-title {
+        margin-bottom: 7px;
+      }
+      .skill-text {
+        margin-bottom: 16px;
+      }
+      .skill-image {
+        max-width: 191px;
+        max-height: 110px;
+        margin: 46px 0px 6px;
+      }
+    }
+  }
+  .skill-image {
+    margin-left: 0;
+  }
+  .skill-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .skill-text {
+    font-size: 13px;
+    line-height: 19.5px;
+  }
+  .skill-button {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 13px 43px;
+  }
+
+  /* ========== ABOUT(section) ========== */
+  .about {
+    margin-bottom: 118px;
+  }
+  .about-column {
+    max-width: 324px
+  }
+  .about-title {
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 16px;
+  }
+  .about-text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 26px;
+  }
+  .about-item-title {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .about-item-subtitle {
+    font-size: 13px;
+    line-height: 19.5px;
+  }
+  .about-image {
+    max-width: 280px;
+    max-height: 255px;
+  }
+
+/* ========== PRICING(section) ========== */
+.pricing-title {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.pricing-content-item {
+  &:nth-child(1) .pricing-image {
+    max-width: 177px;
+    max-height: 179px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+  }
+  &:nth-child(2) .pricing-image {
+    max-width: 211px;
+    max-height: 141px;
+    margin-top: 36px;
+    margin-bottom: 35px;
+  }
+  &:nth-child(3) .pricing-image {
+    max-width: 195px;
+    max-height: 174px;
+    margin-top: 1px;
+    margin-bottom: 30px;
+  }
+
+  &:nth-child(1) .pricing-subtitle {
+    margin-bottom: 15px;
+  }
+  &:nth-child(2) .pricing-subtitle {
+    max-width: 112px;
+    margin-bottom: 14px;
+  }
+  &:nth-child(3) .pricing-subtitle {
+    max-width: 160px;
+    margin-bottom: 9px;
+  }
+
+  &:nth-child(1) .pricing-text {
+    max-width: 197px;
+    margin-bottom: 23px;
+  }
+  &:nth-child(2) .pricing-text {
+    max-width: 211px;
+    margin-bottom: 44px;
+  }
+  &:nth-child(3) .pricing-text {
+    max-width: 226px;
+    margin-bottom: 50px;
+  }
+}
+  .pricing-image {}
+  .pricing-subtitle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .pricing-text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .subscriptions {
+    padding: 0px 12px;
+  }
+  .subscription-price {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .subscription-period {}
+
+  /* ========== CONTACT(section) ========== */
+  .contact {
+    margin-top: 65px;
+    margin-bottom: 128px;
+  }
+  .contact-image {
+    max-width: 218px;
+    max-height: 194px;
+    margin-top: 11px;
+  }
+  .contact-content {
+    max-width: 434px;
+  }
+  .contact-title {
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .contact-text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 26px;
+    max-width: 414px;
+  }
+  .contact-form {
+    max-height: 50px;
+  }
+  .contact-email {
+    max-width: 283px;
+    border-radius: 5px;
+    margin-right: 6px;
+    padding-left: 23px;
+  }
+  .contact-email::-webkit-input-placeholder {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 15px 155px 15px 0px;
+  }
+  .contact-email::-moz-placeholder {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 15px 155px 15px 0px;
+  }
+  .contact-email:-ms-input-placeholder {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 15px 155px 15px 0px;
+  }
+  .contact-email::-ms-input-placeholder {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 15px 155px 15px 0px;
+  }
+  .contact-email::placeholder {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 15px 155px 15px 0px;
+  }
+  .contact-button {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 13.4px 41.99px;
+    border-radius: 5px;
+  }
+
+  /* ==================== FOOTER ==================== */
+  .footer {
+    margin-bottom: 15px;
+  }
+  .bt-line {
+    padding-top: 18px;
+  }
+  .footer-policy {
+    font-size: 13px;
+    line-height: 19.5px;
+  }
+}
+
+/* ================ 755px ================ */
+@media (max-width: 755px) {
+  .container {
+    padding: 0px 32px;
+  }
+  input[type="text"] {
+    font-size: 16px;
+  }
+
+  /* ====================== HEADER ====================== */
+  .header {
+    padding-top: 39px;
+    margin-bottom: 86px
+  }
+  /* ========== POPUP-BURGER ========== */
+  .header-burger {}
+  .header-burger span{
+    margin: 6px 0px;
+    width: 42px;
+    height: 4px;
+  
+    &:nth-child(3) {
+      width: 30px;
+    }
+  }
+  .header-burger.active-burger span {    
+    &:nth-child(1) {
+      -webkit-transform: translateY(10px) rotate(-45deg);
+          -ms-transform: translateY(10px) rotate(-45deg);
+              transform: translateY(10px) rotate(-45deg);
+    }
+    &:nth-child(2) {
+      /* transform: scale(0); */
+    }
+    &:nth-child(3) {
+      width: 100%;
+      -webkit-transform: translateY(-10px) rotate(45deg);
+          -ms-transform: translateY(-10px) rotate(45deg);
+              transform: translateY(-10px) rotate(45deg);
+    }
+  }
+  
+  /* ==================== MAIN =================== */
+  /* ========== INTRODUCTION(section) ========== */
+  .introduction {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 96px;
+  }
+  .introduction-content {
+    max-width: 491px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .introduction-column {
+    margin-bottom: 26px;
+    max-width: 491px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .introduction-title {
+    text-align: center;
+    font-size: 34px;
+    max-width: 491px;
+  }
+  .light-bulb {
+    display: none;
+  }
+  .introduction-text {
+    margin-bottom: 37px;
+    text-align: center;
+  }
+  .introduction-button {
+    padding: 24px 98px;
+  }
+  .introduction-image {
+    margin-bottom: 54px;
+  }
+  .introduction-image img {
+    max-width: 390px;
+    max-height: 311px;
+  }
+
+  /* ========= SKILLS(section) ========== */
+  .skills {
+    margin-bottom: 84px;
+  }
+  .skills-title {
+    margin-bottom: 34px;
+  }
+  .skills-content {
+    -ms-grid-columns: 1fr 30px 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: 1fr 34px 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 34px;
+  }
+  .skills-content > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  .skills-content > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+  }
+  .skills-content > *:nth-child(3) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+  .skills-content > *:nth-child(4) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+  }
+  .skills-content.active .skills-content-item {
+    &:nth-child(1) {
+      -webkit-animation: slide-left 1s forwards;
+              animation: slide-left 1s forwards;
+    }
+    &:nth-child(2) {
+      -webkit-animation: slide-right 1s forwards 0.2s;
+              animation: slide-right 1s forwards 0.2s;
+    }
+    &:nth-child(3) {
+      -webkit-animation: slide-left 1s forwards 0.6s;
+              animation: slide-left 1s forwards 0.6s;
+    }
+    &:nth-child(4) {
+      -webkit-animation: slide-right 1s forwards 1s;
+              animation: slide-right 1s forwards 1s;
+    }
+  }
+  .skills-content-item {
+    &:nth-child(1) {
+      -ms-grid-column: 1;
+      -ms-grid-column-span: 1;
+      grid-column: 1/2;
+      -ms-grid-row: 1;
+      -ms-grid-row-span: 1;
+      grid-row: 1/2;
+      padding: 13px 22px 36px 15px;
+  
+      .skill-image {
+        max-width: 163px;
+        max-height: 147px;
+        margin-bottom: 28px;
+      }
+      .skill-title {
+        margin-bottom: 12px;
+      }
+      .skill-text {
+        margin-bottom: 18px;
+      }
+    }
+  
+    &:nth-child(2) {
+      -ms-grid-column: 2;
+      -ms-grid-column-span: 1;
+      grid-column: 2/3;
+      -ms-grid-row: 1;
+      -ms-grid-row-span: 1;
+      grid-row: 1/2;
+      padding: 28px 21px 36px 16px;
+
+      .skill-image-container {
+        max-width: 165px;
+        max-height: 143px;
+        margin-bottom: 24px;
+        margin-left: 0;
+        margin-right: auto;
+      }
+      .skill-title {
+        margin-bottom: 6px;
+      }
+      .skill-text {
+        margin-bottom: 131px;
+      }
+    }
+  
+    &:nth-child(3) {
+      -ms-grid-column: 1;
+      -ms-grid-column-span: 1;
+      grid-column: 1/2;
+      -ms-grid-row: 2;
+      -ms-grid-row-span: 1;
+      grid-row: 2/3;
+      padding: 35px 22px 36px 15px;
+      -webkit-transform: translateX(-200%);
+          -ms-transform: translateX(-200%);
+              transform: translateX(-200%);
+
+      .skill-image {
+        max-width: 149px;
+        max-height: 119px;
+        margin-bottom: 33px;
+      }
+      .skill-title {
+        margin-bottom: 12px;
+      }
+      .skill-text {
+        margin-bottom: 122px;
+      }
+    }
+  
+    &:nth-child(4) {
+      -ms-grid-column: 2;
+      -ms-grid-column-span: 1;
+      grid-column: 2/3;
+      -ms-grid-row: 2;
+      -ms-grid-row-span: 1;
+      grid-row: 2/3;
+      padding: 47px 21px 36px 16px;
+  
+      .skill-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: start;
+      }
+      .skill-column {}
+      .skill-title {
+        margin-bottom: 14px;
+      }
+      .skill-text {
+        margin-bottom: 142px;
+      }
+      .skill-image {
+        max-width: 194px;
+        max-height: 113px;
+        margin: 0 0 35px;
+      }
+    }
+  }
+  .skill-container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  };
+  .skill-title {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .skill-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .skill-button {
+    font-size: 14px;
+    line-height: 21px;
+    padding: 13px 43px;
+  }
+
+  /* ========== ABOUT(section) ========== */
+  .about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 132px;
+  }
+  .about.active .about-title {
+    -webkit-animation: slide-left 1s forwards;
+            animation: slide-left 1s forwards;
+  }
+  .about-column {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 510px;
+  }
+  .about-title {
+    text-align: center;
+    margin-bottom: 63px;
+  }
+  .about-text {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .about-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    max-width: 421px;
+  }
+  .about-item-title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .about-item-subtitle {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .about-image {
+    max-width: 334px;
+    max-height: 304px;
+    margin-bottom: 49px;
+  }
+
+  /* ========== PRICING(section) ========== */
+.pricing-title {
+  font-size: 30px;
+  margin-bottom: 67px;
+}
+.pricing-content {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 80px;
+}
+.pricing-content-item {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  max-width: 400px;
+  &:nth-child(1) .pricing-image {
+    max-width: 262px;
+    max-height: 264px;
+    margin-bottom: 43px;
+  }
+  &:nth-child(2) .pricing-image {
+    max-width: 303px;
+    max-height: 203px;
+    margin-top: 0px;
+    margin-bottom: 61px;
+  }
+  &:nth-child(3) .pricing-image {
+    max-width: 235px;
+    max-height: 209px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  &:nth-child(1) .pricing-subtitle {
+    margin-bottom: 23px;
+  }
+  &:nth-child(2) .pricing-subtitle {
+    max-width: 100%;
+    margin-bottom: 19px;
+  }
+  &:nth-child(3) .pricing-subtitle {
+    max-width: 100%;
+    margin-bottom: 21px;
+  }
+
+  &:nth-child(1) .pricing-text {
+    max-width: 396px;
+    margin-bottom: 31px;
+  }
+  &:nth-child(2) .pricing-text {
+    max-width: 325px;
+    margin-bottom: 31px;
+  }
+  &:nth-child(3) .pricing-text {
+    max-width: 359px;
+    margin-bottom: 31px;
+  }
+}
+  .pricing-content-item:hover {
+    -webkit-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+  .pricing-image {}
+  .pricing-subtitle {
+    text-align: center;
+    font-size: 24px;
+  }
+  .pricing-text {
+    text-align: center;
+  }
+  .subscriptions {
+    padding: 5px 12px;
+  }
+  .subscription-price {}
+  .subscription-period {}
+
+  /* ========== CONTACT(section) ========== */
+  .contact {
+    margin-top: 163px;
+    margin-bottom: 144px;
+    /* flex-wrap: wrap; */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .contact.active .contact-title {
+    -webkit-animation: show-element 1s forwards 0.4s;
+            animation: show-element 1s forwards 0.4s;
+  }
+  .contact-image {
+    max-width: 335px;
+    max-height: 298px;
+    margin-top: 0px;
+    margin-bottom: 23px;
+  }
+  .contact-content {
+    width: 100%;
+    max-width: 511px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-title {
+    text-align: center;
+    line-height: 80px;
+    margin-top: 0px;
+    margin-bottom: 83px;
+  }
+  .contact-text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 60px;
+    max-width: 501px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-form {
+    position: relative;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    max-width: 511px;
+    max-height: 60px;
+  }
+  .contact-email {
+    position: absolute;
+    margin-right: 0px;
+    max-width: 100%;
+    padding-left: 24px;
+  }
+  .contact-email::-webkit-input-placeholder {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 19px 182px 19px 0px;
+  }
+  .contact-email::-moz-placeholder {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 19px 182px 19px 0px;
+  }
+  .contact-email:-ms-input-placeholder {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 19px 182px 19px 0px;
+  }
+  .contact-email::-ms-input-placeholder {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 19px 182px 19px 0px;
+  }
+  .contact-email::placeholder {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 19px 182px 19px 0px;
+  }
+  .contact-button {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16.4px 59.33px;
+    z-index: 2;
+    height: 100%;
+    margin-left: auto;
+  }
+
+  /* ==================== FOOTER ==================== */
+  .footer {
+    margin-bottom: 26px;
+  }
+  .bt-line {
+    padding-top: 24px;
+  }
+  .footer-policy {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+/* ================ 500px ================ */
+@media (max-width: 500px) {
+  .container {
+    padding: 0px 13px;
+  }
+  .logo {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  input[type="text"] {
+    font-size: 14px;
+  }
+
+  /* ====================== HEADER ====================== */
+  .header {
+    padding-top: 36px;
+    margin-bottom: 82px
+  }
+  /* ========== POPUP-BURGER ========= */
+  .header-burger {}
+  .header-burger span{
+    margin: 5px 0px;
+    width: 34px;
+    height: 3px;
+  
+    &:nth-child(3) {
+      width: 24px;
+    }
+  }
+  .header-burger.active-burger span {    
+    &:nth-child(1) {
+      -webkit-transform: translateY(8px) rotate(-45deg);
+          -ms-transform: translateY(8px) rotate(-45deg);
+              transform: translateY(8px) rotate(-45deg);
+    }
+    &:nth-child(2) {
+      /* transform: scale(0); */
+    }
+    &:nth-child(3) {
+      width: 100%;
+      -webkit-transform: translateY(-8px) rotate(45deg);
+          -ms-transform: translateY(-8px) rotate(45deg);
+              transform: translateY(-8px) rotate(45deg);
+    }
+  }
+
+  /* ==================== MAIN ==================== */
+  /* ========== INTRODUCTION(section) ========== */
+  .introduction {
+    margin-bottom: 51px;
+  }
+  .introduction-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .introduction-column {
+    margin-bottom: 26px;
+    max-width: 220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .introduction-title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .introduction-text {
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 294px;
+    margin-bottom: 35px;
+  }
+  .introduction-button {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 18px 99px;
+  }
+  .introduction-image {
+    margin-bottom: 20px;
+  }
+  .introduction-image img {
+    max-width: 100%;
+    max-height: 220px;
+  }
+
+  /* ========== SKILLS(section) ========== */
+  .skills {
+    margin-bottom: 72px;
+  }
+  .skills-title {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  .skills-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+    grid-column-gap: 0px;
+    grid-row-gap: 21px;
+  }
+  .skills-content-item {
+    max-width: 360px;
+
+    &:nth-child(1) {
+      padding: 32px 12px 45px 16px;
+
+      .skill-image {
+        max-width: 188px;
+        max-height: 169px;
+        margin-bottom: 55px;
+      }
+      .skill-title {
+        margin-bottom: 12px;
+      }
+      .skill-text {
+        margin-bottom: 33px;
+      }
+    }
+  
+    &:nth-child(2) {
+      padding: 41px 16px 44px 16px;
+  
+      .skill-image-container {
+        max-width: 184px;
+        max-height: 160px;
+        margin-bottom: 56px;
+      }
+      .skill-title {
+        margin-bottom: 11px;
+      }
+      .skill-text {
+        margin-bottom: 30px;
+      }
+    }
+  
+    &:nth-child(3) {
+      padding: 36px 30px 44px 16px;
+
+      .skill-image {
+        max-width: 178px;
+        max-height: 142px;
+        margin-bottom: 55px;
+      }
+      .skill-title {
+        margin-bottom: 9px;
+      }
+      .skill-text {
+        margin-bottom: 32px;
+      }
+    }
+  
+    &:nth-child(4) {
+      padding: 43px 28px 57px 16px;
+
+      .skill-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+      }
+      .skill-column {
+        max-width: 360px;
+      }
+      .skill-image {
+        max-width: 178px;
+        max-height: 142px;
+        margin-bottom: 55px;
+      }
+      .skill-title {
+        margin-bottom: 9px;
+      }
+      .skill-text {
+        margin-bottom: 32px;
+      }
+    }
+  }
+  .skill-title {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .skill-text {
+    font-size: 13px;
+    line-height: 19.5px;
+  }
+  .skill-button {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 13px 43px;
+  }
+
+  /* ========== ABOUT(section) ========== */
+  .about {
+    margin-bottom: 84px;
+  }
+  .about-column {
+    max-width: 100%;
+  }
+  .about-title {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 65px;
+  }
+  .about-text {
+    text-align: center;
+    font-size: 13px;
+    line-height: 19.5px;
+    margin-bottom: 34px;
+  }
+  .about-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 51px;
+  }
+  .about-item-subtitle {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  .about-image {
+    max-width: 268px;
+    max-height: 245px;
+    margin-bottom: 42px;
+  }
+
+  /* ========== PRICING(section) ========== */
+  .pricing-title {
+    font-size: 24px;
+    margin-bottom: 60px;
+  }
+  .pricing-content {
+  }
+  .pricing-content-item {
+    &:nth-child(1) .pricing-image {
+      max-width: 223px;
+      max-height: 225px;
+      margin-bottom: 40px;
+    }
+    &:nth-child(2) .pricing-image {
+      max-width: 248px;
+      max-height: 166px;
+      margin-bottom: 27px;
+    }
+    &:nth-child(3) .pricing-image {
+      max-width: 224px;
+      max-height: 199px;
+      margin-bottom: 31px;
+    }
+
+    &:nth-child(1) .pricing-subtitle {
+      margin-bottom: 17px;
+    }
+    &:nth-child(2) .pricing-subtitle {
+      margin-bottom: 19px;
+    }
+    &:nth-child(3) .pricing-subtitle {
+      margin-bottom: 30px;
+    }
+
+    &:nth-child(1) .pricing-text {
+      margin-bottom: 33px;
+    }
+    &:nth-child(2) .pricing-text {}
+    &:nth-child(3) .pricing-text {
+      margin-bottom: 38px;
+    }
+  }
+  .pricing-image {
+  }
+  .pricing-subtitle {
+    font-size: 18px;
+  }
+  .pricing-text {
+    font-size: 13px;
+    line-height: 19.5px;
+  }
+  .subscriptions {
+    padding: 5px 12px;
+  }
+  .subscription-price {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .subscription-period {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  /* ========== CONTACT(section) ========== */
+  .contact {
+    margin-top: 72px;
+    margin-bottom: 57px;
+  }
+  .contact-image {
+    max-width: 237px;
+    max-height: 211px;
+    margin-bottom: 19px;
+  }
+  .contact-content {
+    width: 100%;
+    max-width: 291px;
+    max-height: 100%;
+  }
+  .contact-title {
+    font-size: 24px;
+    margin-bottom: 38px;
+  }
+  .contact-text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 31px;
+    max-width: 286px;
+  }
+  .contact-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    max-width: 291px;
+    max-height: 127px;
+    height: 127px;
+  }
+  .contact-email {
+    position: static;
+    max-height: 50px;
+    padding: 0;
+    padding-left: 25px;
+  }
+  .contact-email::-webkit-input-placeholder {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 15px 0px 15px 0px;
+  }
+  .contact-email::-moz-placeholder {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 15px 0px 15px 0px;
+  }
+  .contact-email:-ms-input-placeholder {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 15px 0px 15px 0px;
+  }
+  .contact-email::-ms-input-placeholder {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 15px 0px 15px 0px;
+  }
+  .contact-email::placeholder {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 15px 0px 15px 0px;
+  }
+  .contact-button {
+    margin: 0;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0;
+    width: 100%;
+    max-height: 60px;
+    height: 100%;
+  }
+
+  /* ==================== FOOTER ==================== */
+  .footer {
+    margin-top: 26px;
+    margin-bottom: 46px;
+  }
+  .footer-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bt-line {
+    padding-top: 26px;
+  }
+  .footer-logo {
+    margin-bottom: 15px;
+  }
+  .footer-policy {
+    font-size: 11px;
+    line-height: 16.5px;
+  }
+}
